@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Register Here</title>
+	<link rel="stylesheet" type="text/css" href="stole.css">
+</head>
+<body style="text-align: center;">
+	<h1><span>Register</span> Here</h1>
+	<form onsubmit="return validate()" action="Cool.html">
+		<label>Userame</label>
+		<input id="uname" type="text" name="Name">
+		<br>
+		<label>Email</label>
+		<input id="mail" type="email" name="email">
+		<br>
+		<label>Password</label>
+		<input id="pass" type="password" name="password">
+		<br>
+		<label>Confirm Password</label>
+		<input id="cpass" type="password" name="cpassword">
+		<br>
+		<label>Mobile</label>
+		<input id="mobile" type="text" name="Phone Number"><br>
+		<button type="submit" onclick="validate()">Register</button>
+		<h3 id="show"></h3>
+	</form>
+	<script type="text/javascript" src="validate.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+button{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	padding: 5px 15px;
+	background: blue;
+	color: grey;
+	border: none;
+	border-radius: 5px;
+}
+
+button:hover{
+	font-family: 'Poppins', sans-serif;
+	font-size: 15px;
+	padding: 5px 15px;
+	background: blue;
+	color: white;
+	border: none;
+	border-radius: 5px;
+}
+
+body{
+	background: azure;
+}

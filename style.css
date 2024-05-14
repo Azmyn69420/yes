@@ -1,0 +1,18 @@
+body{
+	font-family: Gilroy-Bold;
+	background: azure;
+}
+
+.para{
+	text-align: center;
+	color: green;
+	font-family: sans-serif;
+	font-size: 50px;
+}
+
+.header1{
+	text-align: center;
+	color: black;
+	font-size: 50px;
+	font-family: cursive;
+}
